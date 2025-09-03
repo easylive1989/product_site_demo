@@ -1,10 +1,20 @@
+// 匯入所有圖片
+import headphonesImg from '../assets/headphones.jpg'
+import shoesImg from '../assets/shoes.jpg'
+import watchImg from '../assets/watch.jpg'
+import backpackImg from '../assets/backpack.jpg'
+import sunglassesImg from '../assets/sunglasses.jpg'
+import cameraImg from '../assets/camera.jpg'
+import keyboardImg from '../assets/keyboard.jpg'
+import perfumeImg from '../assets/perfume.jpg'
+
 export const products = [
   {
     id: 1,
     name: '無線藍牙耳機',
     price: 2299,
     originalPrice: 2899,
-    image: '/assets/headphones.jpg',
+    image: headphonesImg,
     category: '電子產品',
     description: '高品質無線藍牙耳機，提供卓越的音質體驗和舒適的佩戴感。',
     features: [
@@ -22,7 +32,7 @@ export const products = [
     name: '運動休閒鞋',
     price: 3299,
     originalPrice: 3999,
-    image: '/assets/shoes.jpg',
+    image: shoesImg,
     category: '運動用品',
     description: '時尚運動鞋，結合舒適性和時尚感，適合日常穿搭和運動。',
     features: [
@@ -40,7 +50,7 @@ export const products = [
     name: '智慧手錶',
     price: 8999,
     originalPrice: 10999,
-    image: '/assets/watch.jpg',
+    image: watchImg,
     category: '電子產品',
     description: '多功能智慧手錶，監測健康數據，支援多種運動模式。',
     features: [
@@ -58,7 +68,7 @@ export const products = [
     name: '時尚後背包',
     price: 1599,
     originalPrice: 1999,
-    image: '/assets/backpack.jpg',
+    image: backpackImg,
     category: '生活用品',
     description: '實用時尚後背包，大容量設計，適合上班、上學和旅行使用。',
     features: [
@@ -76,7 +86,7 @@ export const products = [
     name: '時尚太陽眼鏡',
     price: 899,
     originalPrice: 1299,
-    image: '/assets/sunglasses.jpg',
+    image: sunglassesImg,
     category: '時尚配件',
     description: '經典款太陽眼鏡，提供優質的紫外線防護，展現個人風格。',
     features: [
@@ -94,7 +104,7 @@ export const products = [
     name: '數位相機',
     price: 15999,
     originalPrice: 18999,
-    image: '/assets/camera.jpg',
+    image: cameraImg,
     category: '電子產品',
     description: '專業數位相機，高畫質成像，適合攝影愛好者和專業人士。',
     features: [
@@ -112,7 +122,7 @@ export const products = [
     name: '機械式鍵盤',
     price: 2999,
     originalPrice: 3599,
-    image: '/assets/keyboard.jpg',
+    image: keyboardImg,
     category: '電子產品',
     description: '專業機械式鍵盤，提供極佳的打字手感，適合遊戲和辦公。',
     features: [
@@ -130,7 +140,7 @@ export const products = [
     name: '經典香水',
     price: 2599,
     originalPrice: 3299,
-    image: '/assets/perfume.jpg',
+    image: perfumeImg,
     category: '美妝保養',
     description: '經典香水，獨特香調，展現個人魅力，適合各種場合使用。',
     features: [
