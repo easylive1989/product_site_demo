@@ -9,7 +9,7 @@ import './App.css'
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename='/product_site_demo'>
         <Layout>
           <Routes>
             <Route path="/" element={<ProductList />} />
